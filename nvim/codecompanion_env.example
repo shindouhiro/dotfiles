@@ -1,0 +1,17 @@
+# Code Companion 環境變量配置示例
+# 複製此文件為 .env 並填入您的 API 密鑰
+
+# Google AI API (Gemini)
+export GOOGLE_API_KEY="your_google_api_key_here"
+
+# OpenAI API (GPT-4, GPT-3.5)
+export OPENAI_API_KEY="your_openai_api_key_here"
+
+# Anthropic API (Claude)
+export ANTHROPIC_API_KEY="your_anthropic_api_key_here"
+
+# Ollama API (通常不需要，但某些部署可能需要)
+export OLLAMA_API_KEY="your_ollama_api_key_here"
+
+# 將以下內容添加到您的 shell 配置文件中（如 ~/.zshrc 或 ~/.bashrc）：
+# source ~/.config/nvim/codecompanion_env.example 
